@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    background-image: url("images/1000_F_989599851_Y5XWpsEtme9bOk0QUj8BVmF5gp2HWloY.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#rasamalai{
+    text-decoration: none;
+    color: white;
+}
+#browine{
+    text-decoration: none;
+    color: white;
+}
+#rainbo{
+    text-decoration: none;
+    color: white;
+}
+.card-imsa{
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 8px solid rgba(0, 0, 0, 0.404);
+    position: relative;
+    color: white;  
+}
+
+.card-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 10px;
+    background-position: center;   
+}
+.card-imsa:hover .card-body{
+right: 0;
+}
+.card-body{
+    transition: 1.6s;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    right: -100%;
+    position: absolute;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+}
+#blue{
+    text-decoration: none;
+    color: white;
+}
+#str{
+    text-decoration: none;
+    color: white;
+}
+#black{
+    text-decoration: none;
+    color: white;
+}
+#gu{
+    text-decoration: none;
+    color: white;
+}
+#cho{
+    text-decoration: none;
+    color: white;
+}
+#oreo{
+    text-decoration: none;
+    color: white;
+}
+
+.card-title{
+text-transform: uppercase;
+font-size: 65px;
+font-weight: 600;
+margin: 25px 8px;
+}
+#pi{
+    text-decoration: none;
+    color: white;
+}
+.card-info{
+font-weight: 400;
+font-size: 1.4rem;
+text-transform: capitalize;
+margin: 20px 8px;
+line-height: 25px; 
+}
+#honey{
+    text-decoration: none;
+    color: white;
+}
+#strawberry{
+    text-decoration: none;
+    color: white;
+}
+.card-btn{
+color: white;
+background-color: black;
+padding: 10px 20px;
+border-radius: 8px;
+text-transform: capitalize;
+border: none;
+outline: none;
+font-weight: 500;
+cursor: pointer;
+width: 250px;
+
+}
